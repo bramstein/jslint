@@ -4,7 +4,7 @@ A CommonJS front-end for JSLint which allows you to set all JSLint options throu
 
 Installation
 ============
-Assuming your Narwhal (http://narwhaljs.org/) environment is set up, you can use its package manager Tusk to install the front-end for JSLint. You will first need to install the "fulljslint" module and then the command line front-end.
+Assuming your [Narwhal](http://narwhaljs.org/) environment is set up, you can use its package manager Tusk to install the front-end for JSLint. You will first need to install the "fulljslint" module and then the command line front-end.
 
     tusk install http://github.com/bramstein/fulljslint/zipball/master
     tusk install http://github.com/bramstein/jslint/zipball/master
@@ -14,15 +14,15 @@ If you get an "zip file not found" error, go into your Narwhal installation dire
 Usage
 =====
 
-   jslint [OPTIONS] [FILE]
+    jslint [OPTIONS] [FILE]
 
 You can also use jslint with stream processing to---for example---pipe in the contents of a file:
 
-   cat myfile.js | jslint [OPTIONS]
+    cat myfile.js | jslint [OPTIONS]
 
 Options
 =======
-All JSLint specific options are documented in detail on the official JSLint documentation (http://www.jslint.com/lint.html). This command line front-end supports several additional options:
+All JSLint specific options are documented in detail on the [official JSLint documentation](http://www.jslint.com/lint.html). This command line front-end supports several additional options:
 
  * -c, --config CONFIG: use a given JSON formatted configuration file.
  * --help: Print help message.
@@ -50,4 +50,4 @@ If your project uses a lot of predefined variables, you can declare them either 
 
 Credits
 =======
-* Douglas Crockford (JSLint - http://www.jslint.com/)
+* Douglas Crockford ([JSLint](http://www.jslint.com/))
