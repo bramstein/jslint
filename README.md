@@ -7,7 +7,7 @@ Installation
 Assuming your [Narwhal](http://narwhaljs.org/) environment is set up, you can use its package manager Tusk to install the front-end for JSLint. You will first need to install the "jslint-core" module and then the command line front-end.
 
     tusk install http://github.com/bramstein/jslint-core/zipball/master
-    tusk install http://github.com/bramstein/jslint/zipball/master
+    tusk install http://github.com/bramstein/jslint/zipball/install
 
 If you get an "zip file not found" error, go into your Narwhal installation directory, create an empty "zips" directory and try again. You should now be able to run JSLint from the command line.
 
