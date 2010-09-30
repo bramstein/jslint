@@ -1,2 +1,2 @@
-#!/usr/bin/env narwhal
-require('jslint').main(system.args);
+#!/usr/bin/env node
+require('../lib/jslint.js').main();

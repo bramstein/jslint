@@ -1,11 +1,12 @@
 {
 	"name": "jslint",
-	"description": "CommonJS based command-line front-end for JSLint with support for Unix pipes and configurable through command line options.",
-	"version": "0.2.1",
+	"description": "Node.js based command-line front-end for JSLint with support for Unix pipes and configurable through command line options.",
+	"version": "0.3.0",
 	"licenses": [{
 		"type": "new BSD",
 		"url": "http://www.bramstein.com/licenses/BSD.txt"
 	}],
+    "author": "Bram Stein (b.l.stein@gmail.com)",
 	"maintainers": [{
 		"name": "Bram Stein",
 		"web": "http://www.bramstein.com/",
@@ -15,11 +16,11 @@
 		"type": "git",
 		"url": "http://github.com/bramstein/jslint"
 	}],
-	"dependencies": [
-		"jslint-core"
-	],
-	"directories": {
-		"lib": "lib",
-		"bin": "bin"
-	}
+	"dependencies": {
+		"jslint-core": ">=1.0.0",
+        "opts": ">=1.2.0"
+	},
+    "bin": {
+        "jslint": "./bin/jslint"
+    }
 }
