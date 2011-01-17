@@ -12,7 +12,7 @@ You will first need to install the "jslint-core" module and then the command lin
 Usage
 =====
 
-    jslint [OPTIONS] [FILE, ...]
+    jslint [OPTIONS] [FILES]
 
 You can also use jslint with stream processing to---for example---pipe in the contents of a file:
 
@@ -25,6 +25,7 @@ All JSLint specific options are documented in detail on the [official JSLint doc
  * --config CONFIG: use a given JSON formatted configuration file.
  * --help: Print help message.
  * --version: Print the JSLint edition.
+ * --xmlout: Format the output in XML for use with Hudson.
 
 To mimick the original JSLint command-line configuration (rhino.js) you can use the following JSON configuration file:
     {
@@ -42,7 +43,7 @@ To mimick the original JSLint command-line configuration (rhino.js) you can use 
     }
 
 And use it:
-    jslint --config myconfig.json [FILE]
+    jslint --config myconfig.json [FILES]
 
 If your project uses a lot of predefined variables, you can declare them either via multiple "--predef" command line options, or an array of strings in the JSON configuration file. JSLint will look for a configuration file called `jslintrc` in either the current directory, your home directory or `/etc/`.
 
