@@ -1,7 +1,7 @@
 {
 	"name": "jslint",
 	"description": "Node.js based command-line front-end for JSLint with support for Unix pipes and configurable through command line options.",
-	"version": "0.4.2",
+	"version": "0.4.3",
 	"licenses": [{
 		"type": "new BSD",
 		"url": "http://www.bramstein.com/licenses/BSD.txt"
